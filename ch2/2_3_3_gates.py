@@ -1,5 +1,8 @@
 #page 53
 
+import numpy as np
+import matplotlib.pyplot as plt
+
 def AND(x1, x2):
 
     x = np.array([x1,x2])
