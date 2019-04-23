@@ -1,4 +1,6 @@
 #page 35
+#class test
+#class enables "object-oriented programming"
 
 class Man:
     

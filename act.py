@@ -1,5 +1,5 @@
-
 #page 68
+#Activation functions including sigmoid, Relu, and softmax function
 
 import numpy as np
 
