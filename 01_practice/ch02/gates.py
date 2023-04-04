@@ -30,7 +30,7 @@ def OR(x1, x2):
     else:
         return 1
     
-def XOR(x1, x2):
+def XOR(x1, x2): # XOR는 NAND, OR, AND를 이용해 2stage로 구성한다.
     s1 = NAND(x1, x2)
     s2 = OR(x1, x2)
     y = AND(s1, s2)
